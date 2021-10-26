@@ -1,0 +1,24 @@
+.App {
+  height: 100vw;
+  background-color: black;
+}
+
+.App-body {
+  color: white;
+}
+
+.navbar-container {
+  /* display: block; */
+}
+
+.nav-container {
+  margin: 0 !important;
+}
+
+.nav-links {
+  padding-left: 40px !important;
+}
+
+.nav-link {
+  padding: 20px !important;
+}
