@@ -44,7 +44,6 @@ function App() {
         </div>
         <div className="about">
           {/* TODO */}
-          Under Construction
         </div>
         <div className="iris">
           {/* TODO */}

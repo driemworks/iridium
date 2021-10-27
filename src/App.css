@@ -1,18 +1,22 @@
 .App {
-  height: 100vw;
-  background-color: black;
+  /* height: 100vw; */
+  /* background-color: black; */
+  background: black;
   color: white;
+  overflow: hidden;
+  max-width: 100vw;
 }
 
 .App-body {
   display: contents; 
+  background: black;
 }
 
 .call-to-action {
   background-image: url("./assets/asteroid.jpg");
   background-size: 100% 100%;
   /* width: 100%; */
-  height: 50%;
+  height: 50vw;
 }
 
 .nav-links {
@@ -41,23 +45,23 @@
 
 .text-array {
   left: 10%;
-  top: 40%;
+  top: 20vw;
   position: absolute;
   display: grid;
   /* color: black; */
 }
 
 .btn {
-  background: rgba(97, 89, 89, 0.842);
+  /* background: rgba(97, 89, 89); */
   margin: 10px;
 }
 
 #iridium-title {
-  font-size: 65px;
+  font-size: 2em;
 }
 
 #iridium-tagline {
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .section {
@@ -67,14 +71,14 @@
 
 .section-title {
   margin: 10px;
-  font-size: 50px;
+  font-size: 3em;
 }
 
 .description {
   border: 2px solid black;
   float: right;
   /* margin-left: 100px; */
-  width: 50%;
+  width: 18rem;
   padding: 10px;
 }
 
@@ -95,6 +99,7 @@
 
 .cards-container {
   display: flex;
+  background: black;
 }
 
 .card {
