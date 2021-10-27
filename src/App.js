@@ -1,19 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-import { Nav, Navbar, Container }  from 'react-bootstrap';
+
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { Nav, Navbar, Container, Card, Button }  from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="none" variant="dark">
         <Container className="nav-container">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/" className="brand-container">
             <img
               alt=""
-              src={ logo }
+              src={ "/owl.png" }
               height="30"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top header-image"
             />
             <span className="header-title">Iridium</span>
           </Navbar.Brand>
@@ -25,19 +31,81 @@ function App() {
         </Container>
       </Navbar>
       <div className="App-body">
-        <div id="about">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div className="call-to-action">
+          <div className="text-array">
+            <span id="iridium-title">
+              Iridium
+            </span>
+            <span id="iridium-tagline">
+              Building the future of decentralized storage
+            </span>
+            <Button variant="outline-primary" className="btn" href="https://github.com/iridium-labs">Visit us on Github</Button>{' '}
+          </div>
         </div>
-        <div id="iris">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div className="about">
+          {/* TODO */}
+          Under Construction
         </div>
-        <div id="team">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div className="iris">
+          {/* TODO */}
+        </div>
+        <div className="team">
+          <span className="section-title">
+            Team
+          </span>
+          <div className="cards-container">
+            <Card className="card">
+              <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/17711620?v=4/100px180" />
+              <Card.Body>
+                <Card.Title>Tony Riemer</Card.Title>
+                <Card.Text>
+                  <span>
+                    Founder and Lead Engineer
+                  </span>
+                </Card.Text>
+                <div className="icon-container">
+                  <a id="git-icon" href="https://github.com/driemworks">
+                    <FontAwesomeIcon className="icon" icon={faGithub} />
+                  </a>
+                  <a href="https://github.com/driemworks">
+                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                  </a>
+                  <a href="https://github.com/driemworks">
+                    <FontAwesomeIcon className="icon" icon={faTwitter} />
+                  </a>
+                </div>
+              </Card.Body>
+            </Card>
+            <Card className="card">
+              <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/22081838?v=4/100px180" />
+              <Card.Body>
+                <Card.Title>Atoshem Ghebrehiwet</Card.Title>
+                <Card.Text>
+                  <span>
+                    Software Engineer
+                  </span>
+                </Card.Text>
+                <div className="icon-container">
+                <a id="git-icon" href="https://github.com/driemworks">
+                    <FontAwesomeIcon className="icon" icon={faGithub} />
+                  </a>
+                  <a href="https://github.com/driemworks">
+                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                  </a>
+                  <a href="https://github.com/driemworks">
+                    <FontAwesomeIcon className="icon" icon={faTwitter} />
+                  </a>
+                </div>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
       </div>
-      {/* <footer>
-        This is the footer. 
-      </footer> */}
+      <footer className="footer">
+        <span>
+          Built by <a>Iridium</a> @ 2021
+        </span>
+      </footer>
     </div>
   );
 }

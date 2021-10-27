@@ -1,24 +1,120 @@
 .App {
   height: 100vw;
   background-color: black;
-}
-
-.App-body {
   color: white;
 }
 
-.navbar-container {
-  /* display: block; */
+.App-body {
+  display: contents; 
 }
 
-.nav-container {
-  margin: 0 !important;
+.call-to-action {
+  background-image: url("./assets/asteroid.jpg");
+  background-size: 100% 100%;
+  /* width: 100%; */
+  height: 50%;
 }
 
 .nav-links {
-  padding-left: 40px !important;
+  padding-left: 400px !important;
 }
 
 .nav-link {
-  padding: 20px !important;
+  padding-left: 150px !important;
+  font-size: 20px;
+}
+
+.nav-container {
+  background: none !important;
+  color: white !important;
+  margin: 0 !important;
+}
+
+.header-image {
+  filter: invert(1);
+  height: 50px;
+}
+
+.header-title {
+  font-size: 30px;
+}
+
+.text-array {
+  left: 10%;
+  top: 40%;
+  position: absolute;
+  display: grid;
+  /* color: black; */
+}
+
+.btn {
+  background: rgba(97, 89, 89, 0.842);
+  margin: 10px;
+}
+
+#iridium-title {
+  font-size: 65px;
+}
+
+#iridium-tagline {
+  font-size: 20px;
+}
+
+.section {
+  display: grid;
+  float: left;
+}
+
+.section-title {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.description {
+  border: 2px solid black;
+  float: right;
+  /* margin-left: 100px; */
+  width: 50%;
+  padding: 10px;
+}
+
+.about {
+}
+
+.iris {
+  background: gray;
+  /* background-image: url('./assets/gray.jpg');
+  background-size: 100%; */
+  color: black;
+  display: grid;
+}
+
+.team {
+  /* color: black; */
+}
+
+.cards-container {
+  display: flex;
+}
+
+.card {
+  width: 18rem;
+  margin: 20px;
+  color: black;
+}
+
+.icon-container {
+  font-size: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+#git-icon {
+  color: black;
+}
+
+#git-icon:hover {
+  color: blue;
 }
