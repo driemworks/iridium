@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+  import logo from './logo.svg';
 import './App.css';
 
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -25,7 +25,7 @@ function App() {
           </Navbar.Brand>
           <Nav className="me-auto nav-links">
             <Nav.Link className="nav-link" id="about">About</Nav.Link>
-            <Nav.Link className="nav-link" id="iris">Iris</Nav.Link>
+            <Nav.Link className="nav-link" id="docs" href="https://iridium-labs.github.io">Docs</Nav.Link>
             <Nav.Link className="nav-link" id="team">Team</Nav.Link>
           </Nav>
         </Container>
@@ -34,23 +34,23 @@ function App() {
         <div className="call-to-action">
           <div className="text-array">
             <span id="iridium-title">
-              Iridium
+              IRIS
             </span>
             <span id="iridium-tagline">
-              Building the future of decentralized storage
+              a decentralized storage-as-a-service blockchain 
             </span>
-            <Button variant="outline-primary" className="btn" href="https://github.com/iridium-labs">Visit us on Github</Button>{' '}
+            <div className="button-container">
+              <Button variant="outline-primary" className="btn" href="https://github.com/iridium-labs">Visit us on Github</Button>{' '}
+              <Button variant="outline-primary" className="btn" href="https://iridium-labs.github.io">Read the Docs</Button>{' '}
+            </div>
           </div>
         </div>
         <div className="about">
-          {/* TODO */}
-        </div>
-        <div className="iris">
-          {/* TODO */}
+       
         </div>
         <div className="team">
           <span className="section-title">
-            Team
+            The Iridium Team
           </span>
           <div className="cards-container">
             <Card className="card">
@@ -85,13 +85,35 @@ function App() {
                   </span>
                 </Card.Text>
                 <div className="icon-container">
-                <a id="git-icon" href="https://github.com/driemworks">
+                <a id="git-icon" href="https://github.com/aatoshem">
                     <FontAwesomeIcon className="icon" icon={faGithub} />
                   </a>
-                  <a href="https://github.com/driemworks">
+                  <a href="#">
                     <FontAwesomeIcon className="icon" icon={faLinkedin} />
                   </a>
-                  <a href="https://github.com/driemworks">
+                  <a href="#">
+                    <FontAwesomeIcon className="icon" icon={faTwitter} />
+                  </a>
+                </div>
+              </Card.Body>
+            </Card>
+            <Card className="card">
+              <Card.Img variant="top" src="https://www.pngitem.com/pimgs/m/4-40070_user-staff-man-profile-user-account-icon-jpg.png?v=4/100px180" />
+              <Card.Body>
+                <Card.Title>Your name</Card.Title>
+                <Card.Text>
+                  <span>
+                    Engineer
+                  </span>
+                </Card.Text>
+                <div className="icon-container">
+                <a id="git-icon" href="#">
+                    <FontAwesomeIcon className="icon" icon={faGithub} />
+                  </a>
+                  <a href="#">
+                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                  </a>
+                  <a href="#">
                     <FontAwesomeIcon className="icon" icon={faTwitter} />
                   </a>
                 </div>
