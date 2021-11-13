@@ -24,8 +24,8 @@ function App() {
             <span className="header-title">Iridium</span>
           </Navbar.Brand>
           <Nav className="me-auto nav-links">
-            <Nav.Link className="nav-link" id="about">About</Nav.Link>
             <Nav.Link className="nav-link" id="docs" href="https://iridium-labs.github.io">Docs</Nav.Link>
+            <Nav.Link className="nav-link" id="about">About</Nav.Link>
             <Nav.Link className="nav-link" id="team">Team</Nav.Link>
           </Nav>
         </Container>
@@ -97,7 +97,7 @@ function App() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card">
+            {/* <Card className="card">
               <Card.Img variant="top" src="https://www.pngitem.com/pimgs/m/4-40070_user-staff-man-profile-user-account-icon-jpg.png?v=4/100px180" />
               <Card.Body>
                 <Card.Title>Your name</Card.Title>
@@ -118,9 +118,12 @@ function App() {
                   </a>
                 </div>
               </Card.Body>
-            </Card>
+            </Card> */}
           </div>
         </div>
+      </div>
+      <div>
+        More content coming soon ;)
       </div>
       <footer className="footer">
         <span>
