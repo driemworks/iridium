@@ -8,17 +8,15 @@
 }
 
 .App-body {
-  display: contents; 
-  background: black;
+  display: contents;
 }
 
 .call-to-action {
   text-align: center;
-  /* background-image: url("./assets/asteroid.jpg"); */
   background-size: 100% 100%;
-  height: 40vw;
-  margin-top: 12vw;
-
+  /* margin: 15vw; */
+  padding: 10vw;
+  /* height: 70vw */
 }
 
 .text-array {

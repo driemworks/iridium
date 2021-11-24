@@ -24,8 +24,8 @@ function App() {
             <span className="header-title">Iridium</span>
           </Navbar.Brand>
           <Nav className="me-auto nav-links">
-            <Nav.Link className="nav-link" id="about">About</Nav.Link>
             <Nav.Link className="nav-link" id="docs" href="https://iridium-labs.github.io">Docs</Nav.Link>
+            <Nav.Link className="nav-link" id="about">About</Nav.Link>
             <Nav.Link className="nav-link" id="team">Team</Nav.Link>
           </Nav>
         </Container>
@@ -37,7 +37,7 @@ function App() {
               IRIS
             </span>
             <span id="iridium-tagline">
-              a decentralized storage-as-a-service blockchain 
+              A next generation decentralized storage network
             </span>
             <div className="button-container">
               <Button variant="outline-primary" className="btn" href="https://github.com/iridium-labs">Visit us on Github</Button>{' '}
@@ -46,13 +46,13 @@ function App() {
           </div>
         </div>
         <div className="about">
-       
+          
         </div>
         <div className="team">
-          <span className="section-title">
+          {/* <span className="section-title">
             The Iridium Team
-          </span>
-          <div className="cards-container">
+          </span> */}
+          {/* <div className="cards-container">
             <Card className="card">
               <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/17711620?v=4/100px180" />
               <Card.Body>
@@ -70,28 +70,6 @@ function App() {
                     <FontAwesomeIcon className="icon" icon={faLinkedin} />
                   </a>
                   <a href="https://github.com/driemworks">
-                    <FontAwesomeIcon className="icon" icon={faTwitter} />
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
-            <Card className="card">
-              <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/22081838?v=4/100px180" />
-              <Card.Body>
-                <Card.Title>Atoshem Ghebrehiwet</Card.Title>
-                <Card.Text>
-                  <span>
-                    Software Engineer
-                  </span>
-                </Card.Text>
-                <div className="icon-container">
-                <a id="git-icon" href="https://github.com/aatoshem">
-                    <FontAwesomeIcon className="icon" icon={faGithub} />
-                  </a>
-                  <a href="#">
-                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
-                  </a>
-                  <a href="#">
                     <FontAwesomeIcon className="icon" icon={faTwitter} />
                   </a>
                 </div>
@@ -119,8 +97,11 @@ function App() {
                 </div>
               </Card.Body>
             </Card>
-          </div>
+          </div> */}
         </div>
+      </div>
+      <div>
+        More content coming soon ;)
       </div>
       <footer className="footer">
         <span>
