@@ -37,7 +37,7 @@ function App() {
               IRIS
             </span>
             <span id="iridium-tagline">
-              a decentralized storage-as-a-service blockchain 
+              A next generation decentralized storage network
             </span>
             <div className="button-container">
               <Button variant="outline-primary" className="btn" href="https://github.com/iridium-labs">Visit us on Github</Button>{' '}
@@ -46,13 +46,13 @@ function App() {
           </div>
         </div>
         <div className="about">
-       
+          
         </div>
         <div className="team">
-          <span className="section-title">
+          {/* <span className="section-title">
             The Iridium Team
-          </span>
-          <div className="cards-container">
+          </span> */}
+          {/* <div className="cards-container">
             <Card className="card">
               <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/17711620?v=4/100px180" />
               <Card.Body>
@@ -76,28 +76,6 @@ function App() {
               </Card.Body>
             </Card>
             <Card className="card">
-              <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/22081838?v=4/100px180" />
-              <Card.Body>
-                <Card.Title>Atoshem Ghebrehiwet</Card.Title>
-                <Card.Text>
-                  <span>
-                    Software Engineer
-                  </span>
-                </Card.Text>
-                <div className="icon-container">
-                <a id="git-icon" href="https://github.com/aatoshem">
-                    <FontAwesomeIcon className="icon" icon={faGithub} />
-                  </a>
-                  <a href="#">
-                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
-                  </a>
-                  <a href="#">
-                    <FontAwesomeIcon className="icon" icon={faTwitter} />
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
-            {/* <Card className="card">
               <Card.Img variant="top" src="https://www.pngitem.com/pimgs/m/4-40070_user-staff-man-profile-user-account-icon-jpg.png?v=4/100px180" />
               <Card.Body>
                 <Card.Title>Your name</Card.Title>
@@ -118,8 +96,8 @@ function App() {
                   </a>
                 </div>
               </Card.Body>
-            </Card> */}
-          </div>
+            </Card>
+          </div> */}
         </div>
       </div>
       <div>
