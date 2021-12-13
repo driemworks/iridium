@@ -25,8 +25,8 @@ function App() {
           </Navbar.Brand>
           <Nav className="me-auto nav-links">
             <Nav.Link className="nav-link" id="docs" href="https://iridium-labs.github.io">Docs</Nav.Link>
-            <Nav.Link className="nav-link" id="about">About</Nav.Link>
-            <Nav.Link className="nav-link" id="team">Team</Nav.Link>
+            {/* <Nav.Link className="nav-link" id="about">About</Nav.Link>
+            <Nav.Link className="nav-link" id="team">Team</Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>
@@ -37,67 +37,21 @@ function App() {
               IRIS
             </span>
             <span id="iridium-tagline">
-              A next generation decentralized storage network
+              A next-generation decentralized storage network
             </span>
-            <div className="button-container">
+            <div className="bzutton-container">
               <Button variant="outline-primary" className="btn" href="https://github.com/iridium-labs">Visit us on Github</Button>{' '}
               <Button variant="outline-primary" className="btn" href="https://iridium-labs.github.io">Read the Docs</Button>{' '}
             </div>
           </div>
         </div>
         <div className="about">
-          
-        </div>
-        <div className="team">
-          {/* <span className="section-title">
-            The Iridium Team
-          </span> */}
-          {/* <div className="cards-container">
-            <Card className="card">
-              <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/17711620?v=4/100px180" />
-              <Card.Body>
-                <Card.Title>Tony Riemer</Card.Title>
-                <Card.Text>
-                  <span>
-                    Founder and Lead Engineer
-                  </span>
-                </Card.Text>
-                <div className="icon-container">
-                  <a id="git-icon" href="https://github.com/driemworks">
-                    <FontAwesomeIcon className="icon" icon={faGithub} />
-                  </a>
-                  <a href="https://github.com/driemworks">
-                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
-                  </a>
-                  <a href="https://github.com/driemworks">
-                    <FontAwesomeIcon className="icon" icon={faTwitter} />
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
-            <Card className="card">
-              <Card.Img variant="top" src="https://www.pngitem.com/pimgs/m/4-40070_user-staff-man-profile-user-account-icon-jpg.png?v=4/100px180" />
-              <Card.Body>
-                <Card.Title>Your name</Card.Title>
-                <Card.Text>
-                  <span>
-                    Engineer
-                  </span>
-                </Card.Text>
-                <div className="icon-container">
-                <a id="git-icon" href="#">
-                    <FontAwesomeIcon className="icon" icon={faGithub} />
-                  </a>
-                  <a href="#">
-                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
-                  </a>
-                  <a href="#">
-                    <FontAwesomeIcon className="icon" icon={faTwitter} />
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
-          </div> */}
+          <p style={{fontSize: '30px'}}>
+            Iris is <b>infrastructure</b> for web 3.0. 
+          </p>
+          <p style={{width: '50%'}}>
+            Built with Substrate and IPFS, Iris provides a decentralized storage layer that can be used by parachains and smart contracts to monetize storage and access to content.
+          </p>
         </div>
       </div>
       <div>
@@ -105,7 +59,7 @@ function App() {
       </div>
       <footer className="footer">
         <span>
-          Built by <a>Iridium</a> @ 2021
+          Built by <a href="https://github.com/iridium-labs">Iridium</a>
         </span>
       </footer>
     </div>
@@ -113,3 +67,4 @@ function App() {
 }
 
 export default App;
+ 

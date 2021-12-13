@@ -85,6 +85,9 @@
 }
 
 .about {
+  padding: 75px;
+  background: rgb(37, 12, 255);
+  font-family: 'Verdana';
 }
 
 .iris {
