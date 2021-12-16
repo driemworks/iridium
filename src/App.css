@@ -84,47 +84,67 @@
   padding: 10px;
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .about {
+    display: grid;
+  }  
+  .demo-container {
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+  }
+  .info-container {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+@media only screen  and (min-width : 1224px) {
+  .about {
+    display: flex;
+  }
+  .info-container {
+    margin: 0 auto;
+    width: 40%;
+  }
+  .demo-container {
+    width: 40%;
+  }
+}
+
 .about {
-  padding: 75px;
-  background: rgb(37, 12, 255);
+  padding: 50px;
+  background: rgb(62, 47, 199);
   font-family: 'Verdana';
-}
-
-.iris {
-  background: gray;
-  /* background-image: url('./assets/gray.jpg');
-  background-size: 100%; */
-  color: black;
-  display: grid;
-}
-
-.team {
-  /* color: black; */
-}
-
-.cards-container {
-  display: flex;
-  background: black;
-}
-
-.card {
-  width: 18rem;
-  margin: 20px;
-  color: black;
+  /* display: flex; */
 }
 
 .icon-container {
   font-size: 20px;
 }
 
-.icon {
-  margin-right: 10px;
+.contact {
+  padding: 50px;
 }
 
-#git-icon {
-  color: black;
+.fa-icons {
+  padding: 50px;
 }
 
-#git-icon:hover {
+.fa-icons > a {
+  /* margin-right: 10px; */
+  padding: 10px;
+}
+
+#fa-icon {
+  font-size: 30px;
+  color: white;
+}
+
+#fa-icon:hover {
   color: blue;
+}
+
+.footer {
+  margin: 10px;
 }
