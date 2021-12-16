@@ -15,12 +15,6 @@ function App() {
       <Navbar bg="none" variant="dark">
         <Container className="nav-container">
           <Navbar.Brand href="/" className="brand-container">
-            <img
-              alt=""
-              src={ "/owl.png" }
-              height="30"
-              className="d-inline-block align-top header-image"
-            />
             <span className="header-title">Iridium</span>
           </Navbar.Brand>
           <Nav className="me-auto nav-links">
@@ -34,6 +28,7 @@ function App() {
             <span id="iridium-title">
               IRIS
             </span>
+            <br></br>
             <span id="iridium-tagline">
               A next-generation decentralized storage network
             </span>
@@ -42,22 +37,22 @@ function App() {
               <Button variant="outline-primary" className="btn" href="https://iridium-labs.github.io">Read the Docs</Button>{' '}
             </div>
           </div>
-          <div className='fa-icons'>
-          <a href="https://github.com/iridium-labs">
-            <FontAwesomeIcon icon={faGithub} id='fa-icon' />
-          </a>
+            <div className='fa-icons'>
+            <a href="https://github.com/iridium-labs">
+              <FontAwesomeIcon icon={faGithub} id='fa-icon' />
+            </a>
 
-          <a href="https://discord.gg/e8dMetu5yZ">
-            <FontAwesomeIcon icon={faDiscord} id='fa-icon' />
-          </a>
+            <a href="https://discord.gg/e8dMetu5yZ">
+              <FontAwesomeIcon icon={faDiscord} id='fa-icon' />
+            </a>
 
-          <a href="https://medium.com/iridium">
-            <FontAwesomeIcon icon={faMedium} id='fa-icon' />
-          </a>
+            <a href="https://medium.com/iridium">
+              <FontAwesomeIcon icon={faMedium} id='fa-icon' />
+            </a>
 
-          <a href="https://twitter.com/Iridium_labs">
-            <FontAwesomeIcon icon={faTwitter} id='fa-icon' />
-          </a>
+            <a href="https://twitter.com/Iridium_labs">
+              <FontAwesomeIcon icon={faTwitter} id='fa-icon' />
+            </a>
         </div>
         </div>
         <div className="about">
@@ -79,7 +74,7 @@ function App() {
             <p>
               The steps to run Iris node and UI is outlined in chapter two of our documentation.
             </p>
-            <iframe className='video-container' src="https://www.youtube.com/embed/ATxOtEnFmTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className='video-container' src="https://www.youtube.com/embed/ATxOtEnFmTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullScreen></iframe>
           </div>
         </div>
       </div>
