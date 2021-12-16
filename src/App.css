@@ -145,6 +145,12 @@
   color: blue;
 }
 
+iframe {
+  width: 100% !important;
+  height: 300px;
+  overflow: auto;
+}
+
 .footer {
   margin: 10px;
 }
